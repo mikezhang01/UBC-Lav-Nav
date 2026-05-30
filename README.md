@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# UBC Lav Nav
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Indoor navigation for UBC campus buildings (Life Sciences Institute, AMS Nest, and related venues), built with [Create React App](https://github.com/facebook/create-react-app), [Mappedin](https://www.mappedin.com/), and Mapbox.
+
+## Setup
+
+1. Open this folder in Cursor/VS Code: `File → Open Folder → UBC-Lav-Nav` (the folder that contains `package.json`).
+2. Install dependencies (once): `npm install`
+3. Start the dev server: `npm start`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+Mappedin and Mapbox API keys are currently in source files (`src/App.tsx`, `src/Navigation.tsx`, etc.). For production, move them to `.env.local` (see [CRA env vars](https://create-react-app.dev/docs/adding-custom-environment-variables/)).
+
+---
+
+## Create React App (reference)
 
 ## Available Scripts
 
